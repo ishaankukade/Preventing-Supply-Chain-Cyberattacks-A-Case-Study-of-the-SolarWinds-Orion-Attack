@@ -87,3 +87,20 @@ In this workflow what we are procuring is detection time, affected packages, rec
 The SolarWinds attack was an eye-opener for several companies and government firms for using credible software updates. We never know the uncertainties and flaws that lie in a trusted resource. It is essential to go through all the terms and conditions without haphazardly accepting them. The above methodology is a small solution and a step that should be deployed by all the open source software users for monitoring purposes. Even though the third party software is providing their services, it is essential for the company to have its own monitoring system that keeps track of what exactly is taking place inside.
 
 Companies that recognized such as FireEye also went with the similar strategies and there are cyber security companies that are still working on this massive hack that is still operational till date. As per our understanding and knowledge we brainstormed and came to this solution of using ‘Mafia Game’ and try to minimize the effect that shall eventually mitigate the spread of infection.
+
+## How to Run
+
+**Requirements:** Python 3.10+, Jupyter Notebook / Google Colab
+
+1. Clone the repo:
+   git clone https://github.com/ishaankukade/Preventing-Supply-Chain-Cyberattacks-A-Case-Study-of-the-SolarWinds-Orion-Attack.git
+2. Install dependencies:
+   pip install -r requirements.txt
+3. Open `G16.ipynb` in Jupyter or upload it to Google Colab.
+4. Run all cells (Kernel → Restart & Run All).
+5. Output: comparison of Baseline (FIFO) vs Proposed (priority queue) on
+   detection time, affected packages, recovery time, false positive rate.
+
+**Note:** No executable (.exe) is required; the project runs as a notebook.
+
+
